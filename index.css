@@ -1,0 +1,36 @@
+body { 
+    background-color: #193141;
+    font-family: 'Comfortaa';
+    margin: 20px 90px; }
+
+h1,h2 { color: #7E736E;
+    margin: 10px 0 0px 0;}
+
+.header-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-container-avatar{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+
+.header-container-list{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    min-width: 180px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+ul.header-container-list > li {
+    color: white;
+    font-size: 14px;
+    margin: 0 2% 0 2%;
+}
