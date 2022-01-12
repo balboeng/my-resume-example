@@ -34,3 +34,51 @@ ul.header-container-list > li {
     font-size: 14px;
     margin: 0 2% 0 2%;
 }
+.profile-description-container-title{
+    color: #BBADA8;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0;
+}
+
+.profile-description-container-title::after{
+    content: "";
+    border-bottom: 1px solid #BBADA8;
+    width: 100%;
+    display: block;
+}
+.profile-description-container-description{
+    text-align: justify;
+    color: white;
+    font-size: 12px;
+}
+
+.profile-description-container-sub-info{
+    color: white;
+    display: flex;
+}
+
+.profile-description-container-date{
+    flex-basis: 30%;
+    align-items: center;
+    display: flex;
+}
+
+.profile-description-container-description-experience{
+    flex-basis: 60%;
+}
+
+p.profile-description-container-description-experience-job-title > span{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.profile-description-container-description-experience-location{
+    flex-basis: 10%;
+    align-items: center;
+    display: flex;
+}
+
+.profile-description-container-description-experience-responsabilities{
+    font-size: 14px;
+}
